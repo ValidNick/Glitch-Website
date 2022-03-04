@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2? family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+/* Heading */
+header {
+  background-color: #212f3c;
+  background: url(https://www.ucsf.edu/sites/default/files/2021-06/iStock_illustration_heads.jpg);
+}
+nav {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+nav img {
+  width: 10%;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.navLinks {
+  list-style: none;
+}
+
+.navLinks li {
+  font-size: 16px;
+  color: #edfef1;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+nav h2 {
+  font-size: 20px;
+  color: #edfef1;
+  text-align: left;
+  padding: 0px 20px;
+  float: left;
+  margin-right: auto;
+}
+
+.navLinks li a {
+  font-size: 16px;
+  color: #edfef1;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+  color: #0088a9;
+}
+
+.navLinks button {
+  font-size: 16px;
+  color: #edfef1;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease s;
+}
+
+.navLinks button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+#banner {
+  margin: 0px auto;
+  padding: 1em;
+  font-size: 55px;
+  text-align: center;
+}
+/* End of Heading */
+
+/*Second Section */
+#secondSection {
+  display: inline-block;
+  background: url("https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/therapy_440305_nyrbrk.jpg");
+}
+
+.bioPara {
+  display: inline-block;
+  width:800px;
+  height:400px;
+  font-size:20px;
+}
+
+.bioImage {
+  width: 30%;
+  border: solid black 5px;
+  padding: 2px;
+  vertical-align: top;
+  float:right;
+  margin-left:auto;
+}
+
+/* End of Second Section */
+
+/*Third Section */
+
+.boxOne {
+  border: solid 15px black;
+  padding: 5 em;
+  display: inline-block;
+  text-align: center;
+  width: 33em;
+  height: 10em;
+  float: left;
+  display:none;
+}
+
+.boxTwo {
+  border: solid 15px black;
+  padding: 5 em;
+  display: inline-block;
+  text-align: center;
+  width: 33em;
+  height: 10em;
+  margin: 0px auto;
+  display: none;
+}
+.boxThree {
+  border: solid 15px black;
+  padding: 5 em;
+  display: inline-block;
+  text-align: center;
+  width: 33em;
+  height: 10em;
+  float: right;
+  display: none;
+}
+.buttons {
+  
+  background-color: #B0E7FF;
+  font-size:17px;
+  display:inline;
+  align-items:center;
+  justify-content:center;
+  padding:50px 12em;
+}
+/* End of Third Section */
+
+
+
+.typePageImage {
+  width: 50%;
+  border: solid black 5px;
+  padding: 2px;
+  vertical-align: top;
+  display:flex;
+  justify-content:center;
+  margin: 0px auto;
+}
+
+.growthPageImage {
+  width: 50%;
+  border: solid black 5px;
+  padding: 2px;
+  vertical-align: top;
+  display:flex;
+  justify-content:center;
+  margin: 0px auto;
+}
+
+#contactPage {
+  display: none;
+  font-size:20px;
+}
+
+#typePage {
+  background: url("https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/therapy_440305_nyrbrk.jpg");
+  display: none;
+  font-size:20px;
+}
+
+#growthPage{
+  background: url("https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/therapy_440305_nyrbrk.jpg");
+  display:none;
+  font-size:20px;
+}
