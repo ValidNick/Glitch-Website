@@ -1,24 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Hello!</title>
-       <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-  </head>  
+    <meta charset="utf-8" />
+    <title>Mentality</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
   <body>
-        <div class="head-space">
-  <span>Favorite Fictional Character</span>
+    <header>
+      <nav>
+        <image
+          src="https://hbr.org/resources/images/article_assets/2018/10/Oct22_18_862457080.png"
+        ></image>
+        <h2>Mental Health</h2>
+        <ul class="navLinks">
+          <li><a onclick="mainP()" href="#">Main</a></li>
+          <li><a href="#">Info</a></li>
+          <li><a href="#">Links</a></li>
+          <a href="#"
+            ><button onclick="contactUs()" class="cta">Contact</button></a
+          >
+        </ul>
+      </nav>
+      <div id="banner">
+        <h1>Mental Health</h1>
       </div>
-        
-        <!-- The gallery container. It is empty until the Javascript runs. -->
-        <div class="gallery">
+    </header>
+    <main id="homePage">
+      <section id="secondSection">
+        <h2>About</h2>
+        <div class="bio">
+          <div class="bioPara">
+            <p>
+              Our project goal is to spread awareness on mental health such as
+              illnesses and even basic things like stress. <br />
+              We strive to do this through coding, hence code the movement, and
+              to do so we must first understand our own topic. <br />In this
+              case, what is mental health? What is detrimental about it? And how
+              can we help to improve it?
+            </p>
+          </div>
+          <img
+            class="bioImage"
+            src="https://media.istockphoto.com/vectors/information-overload-vector-id1242127315?k=20&m=1242127315&s=612x612&w=0&h=1fhjklUMz7j0OR9Fm8ZBhBd1dyyg91tPFxLKV4OL2ok="
+          />
         </div>
-        
-        <!-- The user can add a new food item here -->
-      <div class="space">
-        <p>New Character: <input class="picture-url" size="60" placeholder="Enter a URL!"></p>
-        <p>Photo--Caption: <input class="caption" size="60" placeholder="Caption it!"></p>
-        <button class="add">Add</button>
-        <button class="gallerybut">Gallery</button>
-      </div>
+      </section>
+      <section class="thirdSection">
+        <div class="homeBoxes">
+          <button onclick="types()" class="buttons">
+            Types of Mental Illnesses
+          </button>
+          <div class="boxTwo" id="boxtwoid">
+            <p>TESTESTETSTEST</p>
+          </div>
+          <button onclick="growth()" class="buttons">
+            Self-Growth Methods
+          </button>
+          <div class="boxThree"></div>
+          <button onclick="contactUs()" id="cta" class="buttons">
+            Contact
+          </button>
+        </div>
+      </section>
+    </main>
+    <main id="contactPage">
+      <article>
+        <div>
+          <p>Contact us if you have any questions!</p>
+          <br />
+          Lio Tang - ltan9346@taehs.org
+          <br />
+          Bikram Singh - bsin0195@taehs.org
+          <br />
+          Nicolas Munsie - nmun7082@taehs.org
+        </div>
+      </article>
+    </main>
+    <main id="typePage">
+      <article>
+        <div>
+          <p>A few basic pieces of information about Mental Health</p>
+          <p>
+            Our emotional, psychological, and social well-being are all part of
+            our mental health. It has an impact on the way we think, feel, and
+            act. It also influences how we deal with stress, interact with
+            people, and make good decisions. Mental health is vital at all
+            stages of life, including childhood, adolescence, and maturity.
+          </p>
+
+          <br />
+          <p>
+            Both mental and physical health are essential components of complete
+            well-being. Depression, for example, raises the risk of a variety of
+            physical health issues, especially long-term diseases like diabetes,
+            heart disease, and stroke. In the same way, the existence of chronic
+            illnesses can raise the risk of mental disease
+          </p>
+
+          <br />
+          <p>Why is it Concerning?</p>
+
+          <p>
+            In the United States, mental diseases are among the most common
+            health problems. The statistics reported by the CDC is 1 IN 5!!! At
+            some point in their lives, more than half of people will be
+            diagnosed with a mental illness or problem. In any given year, one
+            out of every five Americans will suffer from a mental disease. A
+            serious debilitating mental disease has affected one out of every
+            five youngsters, either now or at some point in their lives. A
+            significant mental illness, such as schizophrenia, bipolar disorder,
+            or major depression, affects one in every twenty-five Americans.
+          </p>
+
+          <br />
+          <p>
+            Poor mental health and mental illness are not synonymous, despite
+            the fact that the terms are frequently used interchangeably. A
+            person's mental health can deteriorate without being diagnosed with
+            a mental condition. A person suffering from a mental illness can
+            also go through times of physical, mental, and social well-being.
+          </p>
+          <br />
+
+          <p>
+            There are various kinds of mental issues. A few examples of the most
+            common ones include:
+          </p>
+          <ul>
+            <li>Dietary issues</li>
+            <li>Sorrow, bipolar turmoil, and other state of mind issues</li>
+            <li>
+              Anxiety problems, including fanatical urgent issue, and fears
+            </li>
+            <li>Behavioral conditions</li>
+            <li>Post-horrendous pressure issue</li>
+            <li>Maniacal problems, including schizophrenia</li>
+            <br />
+            <br />
+            <image
+              class="typePageImage"
+              src="https://www.realesaletter.com/images/types-of-mental-disorders.jpg"
+            ></image>
+          </ul>
+        </div>
+      </article>
+    </main>
+    <main id="growthPage">
+      <article>
+        <div>
+          <h2>Ways to Combat Mental Health:</h2>
+          <p>
+            Self-care entails taking the time to do activities that will help
+            you live a happy and healthy life, both physically and mentally.
+            Self-care can help you manage stress, reduce your risk of illness,
+            and boost your energy levels when it comes to your mental health.
+            Even little actions of self-care performed on a daily basis can have
+            a significant impact.
+          </p>
+
+          <br />
+
+          <p>
+            Treatment depends on the mental illness you have and how serious it
+            is. You and your healthcare provider will work on a treatment plan
+            just for you. It usually involves some kind of treatment. You can
+            also take medicine. Some people also need social support and
+            education to deal with their illness. In some cases, more intensive
+            treatment may be required. You may need to go to a mental hospital.
+            This may be due to your mental illness being serious. Or it may be
+            because you risk injuring yourself or others. The hospital offers
+            counseling, group discussions and activities with mental health
+            professionals and other patients.
+            <br />
+            <br />
+            <image
+              class="growthPageImage"
+              src="https://uploads-ssl.webflow.com/5d3aa41f4e11727a27d4e25c/5e4cbe62346763b417e16518_Journal%20(1).jpg"
+            ></image>
+          </p>
+        </div>
+      </article>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
